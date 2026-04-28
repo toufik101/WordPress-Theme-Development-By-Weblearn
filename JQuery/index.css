@@ -1,0 +1,45 @@
+#div{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(92, 92, 92, 0.151);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    backdrop-filter: blur(200px);
+    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+    font-weight: 600;
+    border-radius: 4px;
+    position: absolute;
+}
+#div2{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(92, 92, 92, 0.151);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    backdrop-filter: blur(200px);
+    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+    font-weight: 600;
+    border-radius: 4px;
+    transition: all 0.5s ;
+}
+#div2.activeRot{
+    transform: rotate(180deg);
+    margin: 0 340px;
+}
+button,
+.addClassBtn{
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 0, 0, 0.147);
+    font-size: 18px;
+    background-color: rgba(0, 255, 255, 0.295);
+}
+.row{
+    position: relative;
+    height: 200px;
+}
